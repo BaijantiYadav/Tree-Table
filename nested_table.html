@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table{width:100%; border-width:0 0 1px 1px; border-style:solid; border-color: gray;}
+       table th{background:#888; color:#fff;}
+        table th,table td{text-align:center; border-width:1px 1px 0 0; border-style:solid; border-color:orange; padding:3px 5px;}
+    
+        .subTotatlRow .sub-total-text{text-align:right;}
+
+    </style>
+</head>
+<body>
+    
+    <table class="report-data-table sticky-header f-14" border="0" cellpadding="0" cellspacing="0">
+        <thead class="f-13 text-grey bg-light-grey">
+            <tr class="fw-medium">      
+            <th  class="header p-2" scope="col" width="10%">
+                <span class="d-block text-black f-14">Heading</span>
+            </th>
+            <th class="header p-2" scope="col" width="10%">
+                <span class="d-block text-black f-14">Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14">Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14">Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14">Heading</span>
+            </th>
+            <th class="header p-2" scope="col" widt="10%">
+                <span class="d-block text-black f-14"> Heading</span>
+            </th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="txt-blk f-14">
+            <td class="p-2" rowspan="15">D1</td>
+            <td class="p-2" rowspan="7">B1</td>
+            <td class="p-2" rowspan="3">P1</td>
+            <td class="p-2">001</td>
+            <td class="p-2">A1</td>
+            <td class="p-2">A2</td>
+            <td class="p-2">A3</td>
+            <td class="p-2">A4</td>
+            <td class="p-2">A5</td>
+            <td class="p-2">A6</td>
+            <td class="p-2">A7</td>
+            </tr>
+            <tr class="txt-blk f-14">
+                <td  class="p-2">002</td>
+                <td  class="p-2">B1</td>
+                <td  class="p-2">B2</td>
+                <td  class="p-2">B3</td>
+                <td  class="p-2">B4</td>
+                <td  class="p-2">B5</td>
+                <td  class="p-2">B6</td>
+                <td  class="p-2">B7</td>
+            </tr>
+            <tr class="txt-blk f-14">
+                <td class="p-2">003</td>
+                <td class="p-2">C1</td>
+                <td class="p-2">C2</td>
+                <td class="p-2">C3</td>
+                <td class="p-2">C4</td>
+                <td class="p-2">C5</td>
+                <td class="p-2">C7</td>
+                <td class="p-2">C6</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14 " >
+            <td colspan="10" class="sub-total-text p-2">Total of P1</td>
+            <!-- <td>6</td>
+            <td>15</td> -->
+            </tr>
+            <tr class="txt-blk f-14">
+                <td class="p-2" rowspan="2">P2</td>
+                <td class="p-2">001</td>
+                <td class="p-2">D1</td>
+                <td class="p-2">D2</td>
+                <td class="p-2">D3</td>
+                <td class="p-2">D4</td>
+                <td class="p-2">D5</td>
+                <td class="p-2">D6</td>
+                <td class="p-2">D7</td>
+            </tr>
+            
+            <tr class="txt-blk f-14">
+                <td class="p-2">002</td>
+                <td class="p-2">E1</td>
+                <td class="p-2">E2</td>
+                <td class="p-2">E3</td>
+                <td class="p-2">E4</td>
+                <td class="p-2">E5</td>
+                <td class="p-2">E6</td>
+                <td class="p-2">E7</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14 " >
+            <td colspan="10" class="sub-total-text p-2">Total of P2</td>
+            <!-- <td>6</td>
+            <td>15</td> -->
+            </tr>
+            
+            <tr class="subTotatlRow txt-blk f-14 ">
+            <td colspan="10" class="sub-total-text p-2">Total of B1</td>
+            <!-- <td>6</td>
+            <td>15</td> -->
+            </tr>
+        <tr class="txt-blk f-14">
+            <td class="p-2" rowspan="6">B2</td>
+            <td class="p-2" rowspan="3">P11</td>
+            <td class="p-2">000</td>
+            <td class="p-2">A1</td>
+            <td class="p-2">A2</td>
+            <td class="p-2">A3</td>
+            <td class="p-2">A4</td>
+            <td class="p-2">A5</td>
+            <td class="p-2">A6</td>
+            <td class="p-2">A7</td>
+            </tr>
+            
+            <tr class="txt-blk f-14">
+            <td class="p-2">001</td>
+            <td class="p-2">B1</td>
+            <td class="p-2">B2</td>
+            <td class="p-2">B3</td>
+            <td class="p-2">B4</td>
+            <td class="p-2">B5</td>
+            <td class="p-2">B6</td>
+            <td class="p-2">B7</td>
+            </tr>
+            <tr class="txt-blk f-14">
+            <td class="p-2">002</td>
+            <td class="p-2">C1</td>
+            <td class="p-2">C2</td>
+            <td class="p-2">C3</td>
+            <td class="p-2">C4</td>
+            <td class="p-2">C5</td>
+            <td class="p-2">C6</td>
+            <td class="p-2">C7</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14 " >
+            <td colspan="10" class="sub-total-text p-2"> Total of P1</td>
+            <!-- <td>6</td>
+            <td>15</td> -->
+            </tr>
+        <tr class="txt-blk f-14">
+            <td class="p-2" rowspan="1">P22</td>
+            <td class="p-2">001</td>
+            <td class="p-2">D1</td>
+            <td class="p-2">D2</td>
+            <td class="p-2">D3</td>
+            <td class="p-2">D4</td>
+            <td class="p-2">D5</td>
+            <td class="p-2">D6</td>
+            <td class="p-2">D7</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14">
+            <td colspan="9" class="sub-total-text p-2">Total of p2</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14">
+            <td colspan="10" class="sub-total-text p-2">Total of B2</td>
+            </tr>
+            <tr class="subTotatlRow txt-blk f-14">
+            <td colspan="11" class="sub-total-text p-2">Total of D2</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
